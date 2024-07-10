@@ -1,6 +1,3 @@
-Here's a `README.md` file tailored to the structure and code for hosting a web app in AWS from the repository:
-
-```markdown
 # AWS Web App Hosting with Terraform
 
 Welcome to the AWS Web App Hosting repository! This repository contains Terraform configurations to deploy a web application on AWS.
