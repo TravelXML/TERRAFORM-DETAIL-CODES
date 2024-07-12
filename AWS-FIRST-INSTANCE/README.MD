@@ -223,6 +223,6 @@ You should see the message "Hey SAPAN".
 
 This repository provides a simple example of how to use Terraform to automate the creation of AWS resources and set up a web server with a custom index page. By following the instructions, you can easily set up and manage your infrastructure as code.
 
----
 
-I have incorporated the provided code files into the README.md template to create a comprehensive and detailed guide for setting up an AWS EC2 instance with Terraform and Nginx.
+
+
