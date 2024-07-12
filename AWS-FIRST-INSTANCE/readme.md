@@ -175,8 +175,7 @@ Run the following command to initialize Terraform. This will download the necess
 ```sh
 terraform init
 ```
-![image](https://github.com/user-attachments/assets/15713140-25eb-4366-b8fc-7952d22fb7a2)
-
+![image](https://github.com/user-attachments/assets/16be84e4-80e7-4442-b49d-299e34fa29ca)
 
 ### Step 4: Plan the Infrastructure
 
@@ -185,7 +184,8 @@ Generate and show an execution plan to check what resources will be created.
 ```sh
 terraform plan
 ```
-![image](https://github.com/user-attachments/assets/a23e0075-baa2-4def-a196-7fb95f1d1dfe)
+![image](https://github.com/user-attachments/assets/2a450095-6135-4c43-8395-5d5702834227)
+
 
 ### Step 5: Apply the Configuration
 
@@ -194,12 +194,13 @@ Apply the changes required to reach the desired state of the configuration.
 ```sh
 terraform apply
 ```
-![image](https://github.com/user-attachments/assets/35ffe8fa-46ed-430a-af75-e4cf489ba815)
+![image](https://github.com/user-attachments/assets/3f24b2e4-8c08-4a43-8580-7282e7d9fe20)
 
 ## Usage
 
 After running `terraform apply`, Terraform will create an EC2 instance on AWS, install Nginx, and replace the default index page with a custom message. You can connect to your instance using the SSH key you generated:
-![image](https://github.com/user-attachments/assets/87da38e5-e487-4c1d-a1d8-6ddb6a214efa)
+
+![image](https://github.com/user-attachments/assets/011bd765-92f1-4320-8370-e3815510f257)
 
 
 ```sh
@@ -213,7 +214,8 @@ To see the custom message, open your web browser and go to:
 ```
 http://<public_ip>
 ```
-![image](https://github.com/user-attachments/assets/ecb386fe-1241-4f2c-b184-c6b468cb3cb4)
+![image](https://github.com/user-attachments/assets/4129cf28-d1cd-4add-a32c-19a7b500aad3)
+
 
 You should see the message "Hey SAPAN".
 
@@ -222,3 +224,5 @@ You should see the message "Hey SAPAN".
 This repository provides a simple example of how to use Terraform to automate the creation of AWS resources and set up a web server with a custom index page. By following the instructions, you can easily set up and manage your infrastructure as code.
 
 ---
+
+I have incorporated the provided code files into the README.md template to create a comprehensive and detailed guide for setting up an AWS EC2 instance with Terraform and Nginx.
